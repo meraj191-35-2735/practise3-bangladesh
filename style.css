@@ -44,6 +44,13 @@ body {
     color: yellow;
     margin-top: 10px;
     display: inline-block;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+.button:hover {
+    background-image: linear-gradient(yellow, blue);
 }
 
 .divisions {
@@ -56,6 +63,7 @@ body {
 
 .names {
     text-align: center;
+    font-size: 25px;
 }
 
 .make-flex {
@@ -68,6 +76,7 @@ body {
     width: 32%;
     margin-left: 10px;
     margin-right: 10px;
+    box-shadow: 10px 20px 10px gray;
 }
 
 .lower-width p {
@@ -138,6 +147,10 @@ body {
     border-radius: 5px;
 }
 
+.useful-links ul li a:hover {
+    background-image: linear-gradient(red, green);
+}
+
 .email-me a {
     border: 1px solid red;
     margin-top: 10px;
@@ -148,4 +161,8 @@ body {
     text-decoration: none;
     color: yellow;
     border-radius: 5px;
+}
+
+.email-me a:hover {
+    background-image: linear-gradient(red, green);
 }
